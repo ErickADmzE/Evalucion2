@@ -1,0 +1,139 @@
+.One{
+    color: black;
+    font-size: 200%;
+    background: cyan;
+    margin: 2%;
+    text-align: center;
+    border-style: dotted;
+    border-width: 5px;
+    display: inline-block;
+    
+}
+.Two{
+    color: blue;
+    font-family: "Lucida Console", Courier, monospace;
+
+}
+.Three {
+    text-align: center;
+    color: silver;
+    font-size: 300%;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: olive;
+    
+}
+.five{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
+}
+.abc{
+    position: relative;
+    
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.asd{
+    font-size: 1cm;
+    color: rgb(4, 0, 255);
+    text-decoration: overline;
+    font-family: cursive;
+}
+.navion{
+background: red;
+display: flex;
+justify-content: space-around;
+}
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color:#fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+nav{
+    background: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.flex{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333333;
+    border: 1px solid #333333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px greenyellow;
+    width: 23%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+    
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(250, 93, 75);
+}
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav{
+        background: rgb(11, 241, 3);
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+    .columna{
+        width: 100%;
+    margin-bottom: 20px;
+}
+}

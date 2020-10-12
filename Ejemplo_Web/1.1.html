@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web</title>
+    <link rel="stylesheet" href="1.2.css">
+</head>
+<body style="background-color: moccasin;">
+    <header class="asd">
+        <p>Logo corporativo</p>
+    </header>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Nosotros</a>
+        <a href="#" class="nav-enlace desaparece">Servicios</a>
+        <a href="#" class="nav-enlace desaparece">Contacto</a>
+    </nav>
+
+    <script>
+    function accion(){
+        console.log('está funcionando mi boton');
+        var ancla = document.getElementsByClassName('nav-enlace');
+        for(var i = 0; i < ancla.length; i++){
+            ancla[i].classList.toggle('desaparece');
+        }
+    }
+    </script>
+    </section>
+
+    <p class="Two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> In eum facilis voluptatem officiis totam consectetur numquam. Dolore rem obcaecati ad tempora reprehenderit voluptates aut laboriosam libero quia, facilis iusto. <br> Ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque dolores est consectetur quas voluptatum aspernatur, maiores iusto ullam commodi eaque sequi suscipit ratione reprehenderit libero iste facilis, architecto iure.</p>
+    <a href="https://www.w3schools.com">This is a link</a>
+    <p>This is a <br> paragraph with a line break.</p>
+    <h3 >
+
+        <!-- Esta es una lista desordenada -->
+        <ul >
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+
+        <!-- Esta es una lista ordenada -->
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+        <!-- este es un comentario -->
+
+    </h3>
+    <h1>
+        <a href="https://www.google.cl">
+            Google
+        </a>
+    </h1>
+    <div class="abc">
+        <img src="1.jpg"  alt="esta es una imagen de ejemplo">
+    </div>
+    
+    <p>Lorem <b> ipsum dolor sit amet consectetur</b> adipisicing elit. Doloremque labore voluptate odit id aperiam cum neque sint minima, autem commodi ad. Molestias qui numquam possimus voluptates officiis fugit quibusdam nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore voluptate odit id aperiam cum neque sint minima, autem commodi ad. <i> Molestias qui numquam possimus voluptates officiis fugit</i> quibusdam nulla.</p>
+
+    <p>Lorem ipsum dolor sit, 
+        <b> 
+            <i> 
+                amet consectetur adipisicing elit.
+            </i> 
+            Nostrum officia amet suscipit blanditiis ipsa culpa accusamus, eveniet, 
+        </b>
+        
+        adipisci rem laboriosam dolorum ad aperiam. Earum, eius quas? Praesentium vel voluptatum rem?
+    </p>
+    <section class="container flex">
+        <div class="columna">
+            <h2>Plan Uno</h2>
+            <p class="precio">$500</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <hr>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum</p>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+        <div class="columna">
+            <h2>Plan Dos</h2>
+            <p class="precio">$600</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <hr>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum</p>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div><div class="columna">
+            <h2>Plan Tres</h2>
+            <p class="precio">$700</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <hr>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum</p>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div><div class="columna">
+            <h2>Plan Cuatro</h2>
+            <p class="precio">$800</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <hr>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum</p>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+    </section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quae architecto a asperiores culpa doloribus dolorem ipsum libero tempora commodi quas eius, obcaecati perferendis vero, accusantium vitae alias neque. Iste! <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. At vero ab aut dicta, voluptate libero perspiciatis nulla debitis reiciendis, quos minus veniam. Velit corporis necessitatibus tempore nobis! Dolore, ab voluptatem?</p>
+    <h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+<p style="text-align:center;">The pre tag preserves both spaces and line breaks:</p>
+
+<pre style="text-align:center;"> 
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+<h1 style="text-align:center;">Italian Trulli</h1>
+<img src="pic_trulli.jpg" alt="Italian Trullti" style="width:100%">
+<h2 style="text-align:center;">Demonstrating the Box Model</h2>
+
+<p >The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div style="text-align:center;" class="five">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</body>
+</html>
